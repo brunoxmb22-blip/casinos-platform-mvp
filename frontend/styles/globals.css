@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Casino-themed component styles */
+
+.card {
+   background-color: #F5F5DC; /* Light beige */
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   padding: 20px;
+   transition: transform 0.2s;
+}
+
+.card:hover {
+   transform: scale(1.05);
+}
+
+.button {
+   background-color: #f5c518; /* Gold */
+   border: none;
+   border-radius: 5px;
+   color: white;
+   cursor: pointer;
+   padding: 10px 20px;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.button:hover {
+   background-color: #d4b430;
+}
+
+/* Add more component styles as needed */
